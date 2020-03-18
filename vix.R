@@ -9,7 +9,6 @@
 library(quantmod)
 library(PerformanceAnalytics)
 library(ggplot2)
-library(dygraphs)
 
 # load data
 vix_fred <- na.omit(getSymbols("VIXCLS", src = "FRED", auto.assign = FALSE, method = "curl")) 
